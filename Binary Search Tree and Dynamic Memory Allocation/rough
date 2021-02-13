@@ -1,0 +1,442 @@
+Script started on 2019-12-02 23:32:55-05:00
+bash-4.4$ pwd
+/home/siqbal49/cs2211/asn5
+bash-4.4$ who am i
+siqbal49 pts/24       2019-12-02 23:32
+bash-4.4$ date
+Mon Dec  2 23:33:03 EST 2019
+bash-4.4$ make clean
+rm -f run *.o core
+bash-4.4$ make
+cc -c main.c
+cc -c datatype.c
+cc -c bst.c
+cc -c memory.c
+cc -c list.c
+cc -o mymemory main.o datatype.o bst.o memory.o list.o 
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 100
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+1                  1
+4                  1
+3                  2
+2                  2
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 100
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+5
+No memory blocks large enough
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+4                  1
+3                  1
+2                  1
+1                 27
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): -5
+Error: A non-positive integer value was inputted
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): q
+Error: A non-positive integer value was inputted
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 5
+Error: need to input a size of atleast 20
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 20
+Enter an integer. Press E to exit
+2
+No memory blocks large enough
+Enter an integer. Press E to exit
+3 1
+No memory blocks large enough
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 100
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+5
+No memory blocks large enough
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+4                  1
+3                  1
+2                  1
+1                  1
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 100
+Enter an integer. Press E to exit
+r
+Error: A non-positive integer value was inputted
+Integer        Occurences 
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 100
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+23
+Enter an integer. Press E to exit
+5
+Enter an integer. Press E to exit
+tw
+Error: A non-positive integer value was inputted
+Integer        Occurences 
+5                  1
+23                 1
+2                  1
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 150
+Enter an integer. Press E to exit
+123
+Enter an integer. Press E to exit
+321
+Enter an integer. Press E to exit
+567
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+98
+Enter an integer. Press E to exit
+98
+Enter an integer. Press E to exit
+123
+Enter an integer. Press E to exit
+321
+Enter an integer. Press E to exit
+54
+Enter an integer. Press E to exit
+45
+No memory blocks large enough
+Enter an integer. Press E to exit
+45
+No memory blocks large enough
+Enter an integer. Press E to exit
+31
+No memory blocks large enough
+Enter an integer. Press E to exit
+12
+No memory blocks large enough
+Enter an integer. Press E to exit
+E
+Integer        Occurences 
+54                 1
+98                 2
+4                  1
+567                1
+321                2
+123                2
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 123
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+5
+Enter an integer. Press E to exit
+6
+No memory blocks large enough
+Enter an integer. Press E to exit
+7
+No memory blocks large enough
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+5                  1
+4                  1
+3                  1
+2                  1
+1                  1
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 250
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+5
+Enter an integer. Press E to exit
+6
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+5
+Enter an integer. Press E to exit
+6
+Enter an integer. Press E to exit
+7
+Enter an integer. Press E to exit
+8
+Enter an integer. Press E to exit
+9
+Enter an integer. Press E to exit
+7
+Enter an integer. Press E to exit
+8
+Enter an integer. Press E to exit
+9
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+12
+Enter an integer. Press E to exit
+13
+Enter an integer. Press E to exit
+145
+No memory blocks large enough
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+13                 1
+12                 1
+9                  2
+8                  2
+7                  2
+6                  2
+5                  2
+4                  2
+3                  2
+2                  2
+1                  4
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 100   99
+Enter an integer. Press E to exit
+123
+Enter an integer. Press E to exit
+123
+Enter an integer. Press E to exit
+321
+Enter an integer. Press E to exit
+456
+Enter an integer. Press E to exit
+3456
+No memory blocks large enough
+Enter an integer. Press E to exit
+4
+No memory blocks large enough
+Enter an integer. Press E to exit
+3
+No memory blocks large enough
+Enter an integer. Press E to exit
+2
+No memory blocks large enough
+Enter an integer. Press E to exit
+1
+No memory blocks large enough
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+456                1
+321                1
+123                2
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 150
+Enter an integer. Press E to exit
+123
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+56
+Enter an integer. Press E to exit
+56
+Enter an integer. Press E to exit
+43
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+4
+No memory blocks large enough
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+3                  1
+43                 1
+56                 2
+1                  3
+2                  4
+123                1
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 175
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+4                  2
+3                  2
+2                  2
+1                  1
+bash-4.4$ ./mymemory 
+Enter size for the dynamic memory allocation and deallocation system. (mimimum size is 20): 199   123 4
+Enter an integer. Press E to exit
+1
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+2
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+3
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+4
+Enter an integer. Press E to exit
+5
+Enter an integer. Press E to exit
+5
+Enter an integer. Press E to exit
+5
+Enter an integer. Press E to exit
+5
+Enter an integer. Press E to exit
+5
+Enter an integer. Press E to exit
+6
+No memory blocks large enough
+Enter an integer. Press E to exit
+6
+No memory blocks large enough
+Enter an integer. Press E to exit
+e
+Integer        Occurences 
+5                  5
+4                  4
+3                  3
+2                  2
+1                  1
+bash-4.4$ exit
+exit
+
+Script done on 2019-12-02 23:38:30-05:00
